@@ -1,0 +1,38 @@
+# Variáveis de ambiente / chaves
+.env
+.env.*
+*.env
+*.local
+backend/.env
+backend/.env.*
+backend/*.env
+
+# Ambiente Python
+.venv/
+venv/
+backend/.venv/
+backend/venv/
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Banco local
+*.db
+backend/*.db
+backend/data/
+backend/studyflow.db
+
+# Uploads locais
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs/cache
+*.log
+.cache/
+.pytest_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db
